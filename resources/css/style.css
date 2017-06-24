@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+
+/* IDEA: header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+}
+
+ul {
+  display: flex;
+  text-decoration: underline;
+  font-weight: bold;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+
+
+
+/* IDEA: footer */
+.copyright {
+  margin-left: 20px;
+  display: flex;
+  text-align: left;
+}
