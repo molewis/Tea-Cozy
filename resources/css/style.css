@@ -17,12 +17,14 @@ body {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
-  height: 69px;
+  min-height: 69px;
+  top: 0;
+  background-color: black;
+
 }
 
 ul {
   display: flex;
-  text-decoration: underline;
   font-weight: bold;
   list-style: none;
   flex-wrap: wrap;
@@ -39,7 +41,112 @@ li {
 }
 
 
+/* IDEA: Mission */
 
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  flex-direction: column;
+  margin-top: 69px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h2, h4 {
+  display: flex;
+  margin: 0;
+
+}
+
+.bar {
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-self: stretch;
+}
+
+
+/* Tea of the Month  */
+
+#tea img {
+  height: 200px;
+  width: 300px;
+}
+
+#teahead, #teaq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#teahead {
+  padding-top: 20px;
+  margin: 20px 100px;
+}
+
+#tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teaimgs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.img1, .img2,
+.img3, .img4,
+.img5 {
+  margin: 0 15px;
+  text-align: center;
+}
+
+
+/* IDEA: locations */
+.locationsbody {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.downtown {
+  background-color: black;
+  opacity: 1;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+
+/* IDEA: contact */
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* IDEA: footer */
 .copyright {
@@ -47,3 +154,6 @@ li {
   display: flex;
   text-align: left;
 }
+
+/* IDEA: padding-top: 20px;
+margin: 20px 100px; */
