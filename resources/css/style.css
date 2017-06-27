@@ -7,7 +7,7 @@ body {
 }
 
 
-/* IDEA: header */
+/*  header */
 
 .header {
   display: flex;
@@ -45,7 +45,7 @@ body {
 }
 
 
-/* IDEA: Mission */
+/*  Mission */
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
@@ -96,9 +96,9 @@ body {
 }
 
 #tea {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .teaimgs {
@@ -117,7 +117,7 @@ body {
 }
 
 
-/* IDEA: locations */
+/*  locations */
 .locationsbody {
   background-image: url("../images/img-locations-background.jpg");
   min-height: 500px;
@@ -147,7 +147,7 @@ body {
 }
 
 
-/* IDEA: contact */
+/* contact */
 .contact {
   max-height: 200px;
   display: flex;
@@ -157,12 +157,9 @@ body {
   padding: 20px;
 }
 
-/* IDEA: footer */
+/*  footer */
 .copyright {
   margin-left: 20px;
   display: flex;
   text-align: left;
 }
-
-/* IDEA: padding-top: 20px;
-margin: 20px 100px; */
